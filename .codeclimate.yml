@@ -28,6 +28,13 @@ ratings:
   - "**.php"
   - "**.py"
   - "**.rb"
-exclude_paths:
+exclude_patterns:
   - "test/"
-  - "jasmine/lib/"
+  - "jasmine/"
+  - config/
+  - db/
+  - dist/
+  - **/node_modules/
+  - **/spec/
+  - **/test/
+  - **/tests/
